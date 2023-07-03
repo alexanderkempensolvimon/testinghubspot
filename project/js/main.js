@@ -3,7 +3,7 @@ $(document).ready(function(){
 })
 
 function getCustomers() {
-  var  url = "https://api.hubapi.com/crm/v3/objects/contacts"+apiKey;
+  var  url = "https://api.hubapi.com/crm/v3/objects/contacts";
 
   $.ajax(url,{success: function(data) {
     console.log(data);
